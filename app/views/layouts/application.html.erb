@@ -1,7 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">  
   <head>
-    <title>Memory</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Keep your memories however sad or happy.">
+    <meta name="author" content="Icebob">
+    <meta name="docsearch:language" content="zh-CN">
+    <title>回忆 · 生活</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -11,5 +16,12 @@
 
   <body>
     <%= yield %>
+    <footer class="bd-footer py-5 mt-5 bg-light">
+      <div class="container py-5">
+        <div class="row">
+          <p>欢迎光临！</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
